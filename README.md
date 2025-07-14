@@ -17,5 +17,6 @@ This application demonstrates how to use JsonPowerDB for real-time CRUD operatio
 📦 Release History
 Version	Date	Description
 1.0	July 14, 2025	Initial release with all features: Save, Change, Reset using JPDB integration
+
 https://github.com/HitakshiCodes/JsonPowerDB-Project
 
