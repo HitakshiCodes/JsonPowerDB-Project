@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body onload="resetForm()">
+
+<div class="container mt-5">
+  <h2>Employee Form</h2>
+  <form id="empForm">
+    <div class="mb-3">
+      <label>Employee ID</label>
+      <input type="text" id="empId" class="form-control" onblur="getEmp()" required>
+    </div>
+    <div class="mb-3">
+      <label>Employee Name</label>
+      <input type="text" id="empName" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+      <label>Salary</label>
+      <input type="number" id="empSalary" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+      <label>HRA</label>
+      <input type="number" id="empHra" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+      <label>DA</label>
+      <input type="number" id="empDa" class="form-control" disabled>
+    </div>
+    <div class="mb-3">
+      <label>Deduction</label>
+      <input type="number" id="empDeduction" class="form-control" disabled>
+    </div>
+
+    <button type="button" class="btn btn-success" onclick="saveData()" id="saveBtn" disabled>Save</button>
+    <button type="button" class="btn btn-warning" onclick="changeData()" id="changeBtn" disabled>Change</button>
+    <button type="button" class="btn btn-secondary" onclick="resetForm()" id="resetBtn" disabled>Reset</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="form-script.js"></script>
+</body>
+</html>
