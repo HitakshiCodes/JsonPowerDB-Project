@@ -4,6 +4,7 @@ Employee Form with Control Buttons using JsonPowerDB
 This application demonstrates how to use JsonPowerDB for real-time CRUD operations through RESTful API calls.
 
 ✅ Benefits of using JsonPowerDB
+
 🧠 Simple JSON-based schema: No complex SQL setup
 
 ⚡ Fast & lightweight: Ideal for web projects and college assignments
